@@ -1,0 +1,117 @@
+.footer {
+  padding: 60px 0;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.address-block {
+  width: 230px;
+}
+
+.footer .address-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.footer .address-list-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.footer-address-link,
+.footer-contact-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.footer-address-link {
+  color: var(--text-light-color);
+}
+
+.footer-contact-link {
+  color: var(--footer-contact-color);
+}
+
+.social-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 206px;
+  height: 80px;
+}
+
+.footer-social-title,
+.email-input-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-light-color);
+}
+
+.footer .social-list-link {
+  background-color: var(--footer-social-color);
+  align-self: flex-end;
+}
+
+.footer .social-list-link:hover {
+  background-color: var(--accent-color);
+}
+
+.footer .social-list-link .social-link-svg {
+  fill: var(--logo-light-color);
+}
+
+.footer .social-list-link:hover .social-link-svg {
+  fill: var(--logo-light-color);
+}
+
+.email-input-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 570px;
+  height: 86px;
+}
+
+.footer-email-form {
+  display: flex;
+}
+
+.email-input {
+  display: flex;
+  align-items: center;
+  width: 358px;
+  height: 50px;
+  padding: 16px 15px;
+  margin-right: 12px;
+  font-size: 16px;
+  line-height: 1.25px;
+  letter-spacing: 0.03em;
+  color: var(--text-light-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.email-input::placeholder {
+  width: 47px;
+  height: 20px;
+  color: var(--footer-contact-color);
+}
+
+.footer .button-service::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background: url(../img/icon-send.svg);
+}
