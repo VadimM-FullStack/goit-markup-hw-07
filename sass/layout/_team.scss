@@ -45,35 +45,3 @@
   letter-spacing: 0.03em;
   color: var(--text-dark-color);
 }
-
-.social-list {
-  display: flex;
-  justify-content: space-between;
-  width: 206px;
-  margin: 0 auto;
-}
-
-.social-list-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: var(--logo-light-color);
-}
-
-.social-link-svg {
-  width: 20px;
-  height: 20px;
-  fill: var(--icon-color);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-list-link:hover {
-  background-color: var(--accent-color);
-}
-
-.social-list-link:hover .social-link-svg {
-  fill: var(--logo-light-color);
-}
