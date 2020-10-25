@@ -1,0 +1,19 @@
+.logo {
+  font-family: $logo-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+
+  &-light-theme {
+    color: $logo-dark-color;
+  }
+
+  &-dark-theme {
+    color: $logo-light-color;
+  }
+
+  .header & {
+    margin-right: 94px;
+  }
+}

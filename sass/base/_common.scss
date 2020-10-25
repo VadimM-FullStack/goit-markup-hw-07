@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-style: normal;
 }
 
@@ -21,7 +21,7 @@ a {
 
 a:hover,
 a:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 img {
@@ -36,47 +36,10 @@ img {
   font-style: normal;
 }
 
-.container {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.logo {
-  font-family: var(--logo-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-}
-
 .accent {
-  color: var(--accent-color);
-}
-
-.logo-light-theme {
-  color: var(--logo-dark-color);
-}
-
-.logo-dark-theme {
-  color: var(--logo-light-color);
-}
-
-.title {
-  padding-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--title-color);
+  color: $accent-color;
 }
 
 .footer {
-  background: var(--background-dark-color);
+  background: $background-dark-color;
 }

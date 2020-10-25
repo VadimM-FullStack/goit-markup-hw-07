@@ -1,24 +1,26 @@
-//utils
+// utils
 @import "./utils/variables";
 @import "./utils/visually-hidden";
 
-//base
+// base
 @import "./base/common";
+@import "./base/section";
+@import "./base/container";
 
-//components
+// components
+@import "./components/logo";
+@import "./components/title";
 @import "./components/button-service";
 @import "./components/social-list";
 
-//layouts
+// layouts
 @import "./layout/header";
-
 @import "./layout/hero";
 @import "./layout/features";
 @import "./layout/activity";
 @import "./layout/team";
 @import "./layout/customers";
-
 @import "./layout/footer";
 
-//modal
+// modal
 @import "./components/modal-window";

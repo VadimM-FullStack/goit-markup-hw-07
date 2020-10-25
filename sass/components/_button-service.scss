@@ -8,15 +8,23 @@
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  color: var(--text-light-color);
-  background-color: var(--accent-color);
+  color: $text-light-color;
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-style: none;
   border-radius: 4px;
   outline: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: $hover-button-color;
+  }
 }
 
-.button-service:hover {
-  background-color: var(--hover-button-color);
+.footer .button-service::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background: url(../img/icon-send.svg);
 }
