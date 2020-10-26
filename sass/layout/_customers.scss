@@ -1,6 +1,5 @@
 .customers-list {
-  display: flex;
-  justify-content: space-between;
+  @extend %flex-between;
   margin: 0 auto;
 
   &:not(:last-child) {

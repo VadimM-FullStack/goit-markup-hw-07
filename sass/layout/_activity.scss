@@ -2,8 +2,7 @@
   padding-top: 0;
 
   &-list {
-    display: flex;
-    justify-content: space-between;
+    @extend %flex-between;
 
     &-item {
       position: relative;
@@ -21,9 +20,7 @@
 
   &-overlay {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-center;
     width: 100%;
     height: 70px;
     left: 0;
@@ -33,10 +30,7 @@
 
   &-description {
     display: block;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.03em;
+    @include font(700, 14px, 1.143, 0.03em);
     text-transform: uppercase;
     color: $text-light-color;
   }

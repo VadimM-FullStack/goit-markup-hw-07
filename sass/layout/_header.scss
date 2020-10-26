@@ -55,8 +55,7 @@
 }
 
 .header-contact-link {
-  display: flex;
-  align-items: center;
+  @extend %flex-center;
   color: $text-dark-color;
 
   & .header-contact-svg {

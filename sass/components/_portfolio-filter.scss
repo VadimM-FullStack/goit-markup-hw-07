@@ -1,6 +1,5 @@
 .portfolio-filter {
-  display: flex;
-  justify-content: center;
+  @extend %flex-center;
   margin-bottom: 50px;
 }
 
@@ -9,10 +8,7 @@
   padding: 6px 22px;
   font-family: $main-font;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  letter-spacing: 0.03em;
+  @include font(500, 16px, 1.625, 0.03em);
   color: $title-color;
   text-align: center;
   background: $background-light-color;
